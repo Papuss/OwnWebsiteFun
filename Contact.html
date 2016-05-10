@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>This is the title of my page</title>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<a href="#">Contact</a>
+<a href="#">Page2</a>
+<a href="#">Page3</a>
+<br>
+</head>
+<body>
+This is the conent for my fckin great Site!
+<header>
+<nav>
+  <link rel="stylesheet" href="https://codecool.instructure.com/courses/12/assignments/278" media="screen" title="no title">
+</nav>
+
+</header>
+<div class="content">
+
+<input type="text" id="nameInput" name="nameInput: " value="" placeholder="Enter your name">
+<input type="email" id="mailINput" name="mailINput" value="" placeholder=" Give your email">
+<textarea name="name" id="message" rows="8" cols="40" placeholder="Type your message here. Please explain everything in detail!"></textarea> <br>
+<button onclick="validateContactData()"  type="submit" name="sendButton">SEND</button>
+
+</div>
+
+<script>
+function validateContactData(){
+  var okay = true;
+var name = document.getElementById('nameInput').value;
+/*ar str = "       Hello World!        ";*/
+//alert(name.trim());
+if (name.length > 3 && name.length<=30 && name.indexOf(' ') >= 0) {
+  //alert(name);
+} else {
+  alert("Invalid name")
+}
+
+
+//var email = document.getElementById('mailINput').value;
+var $email = document.getElementById('mailINput').value;
+var re = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/;
+if ($email.length == 0 || !re.test($email.val()))
+{
+    alert('Please enter a valid email address.');
+} else {
+
+}
+
+var text =  document.getElementById('message').val();
+}
+
+
+
+
+</script>
+
+</body>
+<footer>
+<button type="button" name="FacebookButton" > FacebookButton</button>
+<button type="button" name="TwitterButton">TwitterButton</button>
+<button type="button" name="RSSButton">RSSButton</button>
+<button type="button" name="G+Button">Button</button>
+</footer>
+</html>

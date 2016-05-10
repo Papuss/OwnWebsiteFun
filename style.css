@@ -1,0 +1,34 @@
+body {
+	font-family: Georgia, serif;
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+  background-image: url('https://newevolutiondesigns.com/images/freebies/retro-wallpaper-17.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.content {
+	padding: 250px 0;
+	margin: 30px;
+
+}
+
+input {
+	padding: 5px;
+	position: relative;
+	margin: 3px;
+}
+
+textarea {
+ padding:  inherit;
+ position: relative;
+ margin: 10px;
+}
+
+button {
+ padding: 2px;
+ font-style: italic;
+ text-shadow:
+}
