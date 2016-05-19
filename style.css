@@ -4,6 +4,7 @@ body {
 	margin: 0;
 	text-align: center;
 	width: 100%;
+	color: white;
   background-image: url('https://newevolutiondesigns.com/images/freebies/retro-wallpaper-17.jpg');
   background-position: center;
   background-size: cover;
@@ -22,13 +23,12 @@ input {
 }
 
 textarea {
- padding:  inherit;
- position: relative;
- margin: 10px;
+ padding:  10px;
+ position: inherit;
+ margin: 1px;
 }
 
 button {
  padding: 2px;
  font-style: italic;
- text-shadow:
 }
